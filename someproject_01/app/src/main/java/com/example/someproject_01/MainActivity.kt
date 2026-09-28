@@ -45,6 +45,11 @@ class MainActivity : AppCompatActivity() {
                 ).show()
             } else {
                 hiText.text = "Hi! $name"
+                Toast.makeText(
+                    this,
+                    "Bienvenido $name!",
+                    Toast.LENGTH_SHORT
+                ).show()
             }
         }
 
